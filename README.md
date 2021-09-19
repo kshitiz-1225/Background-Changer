@@ -1,11 +1,11 @@
 # Background-Changer
  Background changer
 
-• Collected the dataset for the project from various segmentation datasets like COCO, ADE20K, VOC pascal
+• Collected the dataset for the project from various segmentation datasets like COCO, ADE20K, VOC pascal <br />
 • Developed a custom deep learning model using the State of the Art HRNet(https://arxiv.org/pdf/1904.04514.pdf) architecture along with a combined loss function
-comprising of Boundary and Cross-Entropy loss
-• Deployed the model that helps to customize the background for an image using semantic segmentation using Azure([Link](http://bgchanger.azurewebsites.net/))
-• Technologies Used: PyTorch, Azure
+comprising of Boundary and Cross-Entropy loss<br />
+• Deployed the model that helps to customize the background for an image using semantic segmentation using Azure([Link](http://bgchanger.azurewebsites.net/))<br />
+• Technologies Used: PyTorch, Azure<br />
  
 ## Steps to Run the Code
  1. Clone the repository
@@ -27,11 +27,11 @@ python main.py --image <path to foreground image> --bg_image <path to background
   
 # Input
 Foreground image
-<img  src=  "demo_images/image1.jpg"  width=  "300"  height=  "400">
+<img  src=  "demo_images/image1.jpg"  width=  "325"  height=  "487.5">
 
 Background image 
-<img  src="demo_images/background1.jpg"  width="275"  height=  "200"> 
+<img  src="demo_images/background1.jpg"  width="320.0"  height=  "213.3"> 
 
 # Output
 
-<img  src="final.png"    height=  "400">
+<img  src="final.png"    height=  "487.5">
