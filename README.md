@@ -4,7 +4,7 @@
 • Collected the dataset for the project from various segmentation datasets like COCO, ADE20K, VOC pascal <br />
 • Developed a custom deep learning model using the State of the Art HRNet[[Link](https://arxiv.org/pdf/1904.04514.pdf)] architecture along with a combined loss function
 comprising of Boundary and Cross-Entropy loss<br />
-• Deployed the model that helps to customize the background for an image using semantic segmentation using Azure[[Link](http://bgchanger.azurewebsites.net/)]<br />
+• Deployed the model that helps to customize the background for an image using semantic segmentation using Azure<br />
 • Technologies Used: PyTorch, Azure<br />
  
 ## Steps to Run the Code
